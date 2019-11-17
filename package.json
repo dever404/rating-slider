@@ -1,0 +1,42 @@
+{
+  "name": "review-range",
+  "version": "1.0.0",
+  "description": "Range Review",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
+    "gulp-font-awesome-icons": "^1.1.0",
+    "gulp-jquery": "^1.1.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-image": "^4.3.0",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-inject": "^4.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-uglify": "^3.0.1",
+    "import-glob-loader": "^1.1.0",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "test": "Plugin range review"
+  },
+  "repository": {
+    "type": "git",
+    "url": "develop"
+  },
+  "keywords": [
+    "dev"
+  ],
+  "author": "Er-rafaiy",
+  "license": "ISC"
+}
