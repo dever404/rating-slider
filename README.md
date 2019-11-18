@@ -5,7 +5,7 @@ the plugin jquery for range slider reviews
 
 #### Demo 
 
-[https://errafaiy.github.io/range-reviews/] (https://errafaiy.github.io/range-reviews/)
+https://errafaiy.github.io/range-reviews/
 
 #### Settings
 
@@ -59,6 +59,7 @@ theme  | string | type theme range slider tow theme ( satisfied / review )
 
 ####  Dependencies
 jQuery 3.4.1
+
 Bootstrap 4
 
 ####  License
