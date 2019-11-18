@@ -5,7 +5,16 @@ the plugin jquery for range slider reviews
 
 #### Demo 
 
-[1]:
+[https://errafaiy.github.io/range-reviews/] (https://errafaiy.github.io/range-reviews/)
+
+#### Settings
+
+Option | Type |  Description
+------ | ---- |  -----------
+min    | int  |  value of begin range slide icon reviews
+max    | int  |  value of end range slide icon reviews
+icon   | string |  class name of icon 
+theme  | string | type theme range slider tow theme ( satisfied / review )
 
 #### Example satisfied range
 
@@ -32,3 +41,16 @@ the plugin jquery for range slider reviews
     theme = 'review';
     $('.statisfied-review').RangeReviewSmiley(optionRangeSmiley,theme);
 ``` 
+
+####  Browser support
+ Works on IE11+ in addition to other modern browsers such as Chrome, Firefox, and Safari.
+
+####  Dependencies
+jQuery 3.4.1
+
+####  License
+Copyright (c) 2019 
+
+Licensed under the MIT license.
+
+Free as in Bacon.
