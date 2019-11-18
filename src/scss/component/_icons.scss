@@ -1,0 +1,62 @@
+$icomoon-font-family: "range" !default;
+$icomoon-font-path: "../fonts" !default;
+
+$icon-meh: "\e900";
+$icon-smiley: "\e901";
+$icon-sad: "\e902";
+$icon-frown: "\e903";
+$icon-grinning: "\e904";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?c9jpfn');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?c9jpfn#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?c9jpfn') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?c9jpfn') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?c9jpfn##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-meh {
+  &:before {
+    content: $icon-meh; 
+  }
+}
+.icon-smiley {
+  &:before {
+    content: $icon-smiley; 
+  }
+}
+.icon-sad {
+  &:before {
+    content: $icon-sad; 
+  }
+}
+.icon-frown {
+  &:before {
+    content: $icon-frown; 
+  }
+}
+.icon-grinning {
+  &:before {
+    content: $icon-grinning; 
+  }
+}
+
