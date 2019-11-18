@@ -21,7 +21,7 @@ theme  | string | type theme range slider tow theme ( satisfied / review )
 ```html
     <div class="form-group">
         <div class='reviews_message statisfied-review d-flex align-items-center'>
-            <div class='range'>
+            <div class='range w-100'>
                 <span class="reviews-label"></span>
                 <div class='reviews-fill'></div>
                 <input type="range" class="form-control-range reviews-range" min="0" max="100" step="1" value="50">
@@ -41,6 +41,20 @@ theme  | string | type theme range slider tow theme ( satisfied / review )
 ``` 
 
 #### Example reviews range
+
+```html
+    <div class="form-group">
+        <div class='reviews_message statisfied d-flex align-items-center'>
+            <i class="icon-frown mr-2"></i>
+            <div class='range w-100'>
+                <span class="reviews-label "></span>
+                <div class='reviews-fill'></div>
+                <input type="range" class="form-control-range reviews-range" min="0" max="100" step="1" value="50">
+            </div>
+            <i class="icon-smiley ml-2"></i>
+        </div>
+    </div>  
+```
 
 ```javascript
     var optionRangeSmiley = [
