@@ -18,6 +18,18 @@ theme  | string | type theme range slider tow theme ( satisfied / review )
 
 #### Example satisfied range
 
+```html
+    <div class="form-group">
+        <div class='reviews_message statisfied-review d-flex align-items-center'>
+            <div class='range'>
+                <span class="reviews-label"></span>
+                <div class='reviews-fill'></div>
+                <input type="range" class="form-control-range reviews-range" min="0" max="100" step="1" value="50">
+            </div>
+        </div>
+      </div> 
+```
+
 ```javascript
     var optionRangeSmiley = [
         {min:0,max:30,icon:'icon-frown'},
@@ -47,6 +59,7 @@ theme  | string | type theme range slider tow theme ( satisfied / review )
 
 ####  Dependencies
 jQuery 3.4.1
+Bootstrap 4
 
 ####  License
 Copyright (c) 2019 
