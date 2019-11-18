@@ -5,7 +5,7 @@ the plugin jquery for range slider reviews
 
 #### Demo 
 
-https://errafaiy.github.io/range-reviews/
+https://errafaiy.github.io/Plugin-jquery-range-slider-reviews/
 
 #### Settings
 
